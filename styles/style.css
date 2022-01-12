@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+nav {
+  background-color: red;
+}
+
+main {
+  background-color: blue;
+}
+
+aside {
+  background-color: pink;
+}
