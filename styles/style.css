@@ -1,15 +1,24 @@
-.container {
+nav {
   display: flex;
+  background-color: red;
+  height: 50px;
 }
 
-nav {
-  background-color: red;
+nav div {
+  flex-basis: 33%;
+}
+
+.content-container {
+  display: flex;
+  height: 700px;
 }
 
 main {
   background-color: blue;
+  flex-basis: 61%;
 }
 
 aside {
   background-color: pink;
+  flex-basis: 39%;
 }
