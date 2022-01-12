@@ -1,11 +1,27 @@
 nav {
   display: flex;
-  background-color: red;
   height: 50px;
 }
 
 nav div {
-  flex-basis: 33%;
+  display: flex;
+}
+
+.nav-1, .nav-3 {
+  flex-basis: 25%;
+}
+
+.nav-2 {
+  flex-basis: 50%;
+  background-color: red;
+}
+
+.search {
+  /* flex-basis: 85%;  Fix this here */
+}
+
+.nav-3 {
+  justify-content: end;
 }
 
 .content-container {
