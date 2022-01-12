@@ -10,15 +10,34 @@ nav div {
 
 .content-container {
   display: flex;
-  height: 700px;
 }
 
 main {
-  background-color: blue;
-  flex-basis: 61%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 aside {
-  background-color: pink;
-  flex-basis: 39%;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px;
 }
+
+
