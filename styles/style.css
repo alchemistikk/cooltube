@@ -13,11 +13,6 @@ nav div {
 
 .nav-2 {
   flex-basis: 50%;
-  background-color: red;
-}
-
-.search {
-  /* flex-basis: 85%;  Fix this here */
 }
 
 .nav-3 {
